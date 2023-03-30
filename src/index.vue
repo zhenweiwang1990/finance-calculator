@@ -6,10 +6,18 @@
           title="Cashflows (CSV)"
           placeholder="Date,Amount"   
           auto-select
+          :save-options="{key:'cashflows', autoSave: true}"
         />
       <a-space>
         <span>Total Asset Value(Present Value):</span>
-        <a-input-number v-model:value="totalAssetValue" :min="0" />
+        <a-input-number v-model:value="totalAssetValue" :min="0"           
+        :save-options="{key:'totalAssetValue', autoSave: true}"
+        />
+        
+        <span>Guess(Optional):</span>
+        <h-input v-model="guess" style="width: 60px;"        
+        :save-options="{key:'guess', autoSave: true}"
+        />
         <a-button type="primary" @click="calculateXIRR">Calculate XIRR</a-button>
       </a-space>
       <h-singleline :value="xirrV" title="XIRR" size="large"/>
@@ -30,6 +38,7 @@ export default {
 `);
     const totalAssetValue = ref(0);
     const xirrV = ref("");
+    const guess = ref(0.1);
     const calculateXIRR = () => {
       const lines = cashflowCsv.value.trim().split("\n");
       const cashflows = lines.map(line => {
@@ -41,7 +50,7 @@ export default {
       });
       dates.push(new Date())
       debugger
-      xirrV.value = finance.XIRR(cashflows, dates, 0.1).toFixed(3);
+      xirrV.value = finance.XIRR(cashflows, dates, guess.value).toFixed(3);
     };
     return { cashflowCsv, totalAssetValue, xirrV, calculateXIRR };
   },
