@@ -57,6 +57,19 @@
       "encode"
     ],
     "keywords": ["Compound","Interest","CI"]
+  },
+  {
+    "name": "Discount Factors Calculator",
+    "id": "df-calculator",
+    "icon": "block-outlined",
+    "version": "0.0.3",
+    "description": "Discount Factors Calculator",
+    "repository": "https://github.com/zhenweiwang1990/finance-calculator",
+    "isPublic": true,
+    "category": [
+      "encode"
+    ],
+    "keywords": ["discount","factor","DF"]
   }
 ],
   "dependencies": {
