@@ -12,6 +12,7 @@
     "icon": "block-outlined",
     "version": "0.0.3",
     "description": "XIRR(ROI) Calculator",
+    "repository": "https://github.com/zhenweiwang1990/finance-calculator",
     "isPublic": true,
     "category": [
       "encode"
@@ -24,6 +25,7 @@
     "icon": "block-outlined",
     "version": "0.0.3",
     "description": "Amortization Calculator",
+    "repository": "https://github.com/zhenweiwang1990/finance-calculator",
     "isPublic": true,
     "category": [
       "encode"
@@ -36,11 +38,25 @@
     "icon": "block-outlined",
     "version": "0.0.3",
     "description": "Compound Annual Growth Rate Calculator",
+    "repository": "https://github.com/zhenweiwang1990/finance-calculator",
     "isPublic": true,
     "category": [
       "encode"
     ],
     "keywords": ["CAGR","growth","annal","rate","compound"]
+  },
+  {
+    "name": "Compound Interest Calculator",
+    "id": "ci-calculator",
+    "icon": "block-outlined",
+    "version": "0.0.3",
+    "description": "Compound Interest Calculator",
+    "repository": "https://github.com/zhenweiwang1990/finance-calculator",
+    "isPublic": true,
+    "category": [
+      "encode"
+    ],
+    "keywords": ["Compound","Interest","CI"]
   }
 ],
   "dependencies": {
