@@ -6,7 +6,7 @@
     "publish": "he3 publish"
   },
   "mode": "production",
-  "he3": {
+  "he3": [{
     "name": "XIRR(ROI) Calculator",
     "id": "xirr-calculator",
     "icon": "block-outlined",
@@ -18,6 +18,19 @@
     ],
     "keywords": ["xirr","roi","irr","rate of return"]
   },
+  {
+    "name": "Amortization Calculator",
+    "id": "am-calculator",
+    "icon": "block-outlined",
+    "version": "0.0.1",
+    "description": "Amortization Calculator",
+    "isPublic": true,
+    "category": [
+      "encode"
+    ],
+    "keywords": ["Amortization","am","payment"]
+  }
+],
   "dependencies": {
     "financejs": "^4.1.0",
     "vue": "^3.2.45",
