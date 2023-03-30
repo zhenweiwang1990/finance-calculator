@@ -10,7 +10,7 @@
     "name": "XIRR(ROI) Calculator",
     "id": "xirr-calculator",
     "icon": "block-outlined",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "XIRR(ROI) Calculator",
     "isPublic": true,
     "category": [
@@ -22,7 +22,7 @@
     "name": "Amortization Calculator",
     "id": "am-calculator",
     "icon": "block-outlined",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Amortization Calculator",
     "isPublic": true,
     "category": [
