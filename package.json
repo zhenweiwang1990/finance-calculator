@@ -10,7 +10,7 @@
     "name": "XIRR(ROI) Calculator",
     "id": "xirr-calculator",
     "icon": "block-outlined",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "XIRR(ROI) Calculator",
     "isPublic": true,
     "category": [
@@ -22,13 +22,25 @@
     "name": "Amortization Calculator",
     "id": "am-calculator",
     "icon": "block-outlined",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Amortization Calculator",
     "isPublic": true,
     "category": [
       "encode"
     ],
     "keywords": ["Amortization","am","payment"]
+  },
+  {
+    "name": "CAGR Calculator",
+    "id": "cagr-calculator",
+    "icon": "block-outlined",
+    "version": "0.0.3",
+    "description": "Compound Annual Growth Rate Calculator",
+    "isPublic": true,
+    "category": [
+      "encode"
+    ],
+    "keywords": ["CAGR","growth","annal","rate","compound"]
   }
 ],
   "dependencies": {
