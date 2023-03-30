@@ -70,6 +70,19 @@
       "encode"
     ],
     "keywords": ["discount","factor","DF"]
+  },
+  {
+    "name": "Future Value Calculator",
+    "id": "fv-calculator",
+    "icon": "block-outlined",
+    "version": "0.0.3",
+    "description": "Future Value Calculator",
+    "repository": "https://github.com/zhenweiwang1990/finance-calculator",
+    "isPublic": true,
+    "category": [
+      "encode"
+    ],
+    "keywords": ["future","value","FV"]
   }
 ],
   "dependencies": {
