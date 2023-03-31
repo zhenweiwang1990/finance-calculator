@@ -15,7 +15,7 @@
                 </h-radio>
             </a-form-item>
             <a-form-item label="Total Number of Payments:">
-              <a-input-number v-model:value="totalPayments" :min="1" :save-options="{key:'totalPayments', autoSave: true}"/>
+              <h-number-input v-model:value="totalPayments" :min="1" :save-options="{key:'totalPayments', autoSave: true}"/>
             </a-form-item>
 
             <a-form-item label="Calculate:">
