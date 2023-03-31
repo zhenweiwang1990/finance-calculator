@@ -9,7 +9,7 @@
           <h-input v-model:value="cashflow" :save-options="{key:'cashflow', autoSave: true}" />
         </a-form-item>
         <a-form-item label="Number of Periods:">
-          <a-input-number v-model:value="periods" :min="1" :save-options="{key:'periods', autoSave: true}" />
+          <h-number-input v-model:value="periods" :min="1" :save-options="{key:'periods', autoSave: true}" />
         </a-form-item>
         <a-form-item label="Calculate:">
           <a-button type="primary" @click="calculateFutureValue">Calculate Future Value</a-button>

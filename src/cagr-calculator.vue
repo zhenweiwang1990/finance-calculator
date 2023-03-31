@@ -9,7 +9,7 @@
           <h-input v-model:value="endingValue" :save-options="{key:'endingValue', autoSave: true}"/>
         </a-form-item>
         <a-form-item label="Periods:">
-          <a-input-number v-model:value="periods" :min="1" :save-options="{key:'periods', autoSave: true}"/>
+          <h-number-input v-model:value="periods" :min="1" :save-options="{key:'periods', autoSave: true}"/>
         </a-form-item>
         <a-form-item label="Calculate:">
           <a-button type="primary" @click="calculateCAGR">Calculate CAGR</a-button>

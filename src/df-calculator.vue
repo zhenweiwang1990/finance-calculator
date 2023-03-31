@@ -6,7 +6,7 @@
           <h-input v-model:value="rate" :save-options="{key:'rate', autoSave: true}"/>
         </a-form-item>
         <a-form-item label="Number of Periods:">
-          <h-input-number v-model:value="periods" :min="1" :save-options="{key:'periods', autoSave: true}"/>
+          <h-number-input v-model:value="periods" :min="1" :save-options="{key:'periods', autoSave: true}"/>
         </a-form-item>
         <a-form-item label="Calculate:">
           <a-button type="primary" @click="calculateDiscountFactors">Calculate Discount Factors</a-button>

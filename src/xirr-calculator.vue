@@ -10,7 +10,7 @@
         />
       <a-space>
         <span>Total Asset Value(Present Value):</span>
-        <a-input-number v-model:value="totalAssetValue" :min="0"           
+        <h-number-input v-model:value="totalAssetValue" :min="0"           
         :save-options="{key:'totalAssetValue', autoSave: true}"
         />
         

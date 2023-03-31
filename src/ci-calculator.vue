@@ -7,13 +7,13 @@
              :save-options="{key:'rate', autoSave: true}"/>
         </a-form-item>
         <a-form-item label="Compoundings per Period:">
-          <a-input-number v-model:value="compoundings" :min="1" :save-options="{key:'compoundings', autoSave: true}"/>
+          <h-number-input v-model:value="compoundings" :min="1" :save-options="{key:'compoundings', autoSave: true}"/>
         </a-form-item>
         <a-form-item label="Principal:">
           <h-input v-model:value="principal" :save-options="{key:'principal', autoSave: true}"/>
         </a-form-item>
         <a-form-item label="Number of Periods:">
-          <a-input-number v-model:value="periods" :min="1" :save-options="{key:'periods', autoSave: true}"/>
+          <h-number-input v-model:value="periods" :min="1" :save-options="{key:'periods', autoSave: true}"/>
         </a-form-item>
         <a-form-item label="Calculate:">
           <a-button type="primary" @click="calculateCompoundInterest">Calculate Compound Interest</a-button>
