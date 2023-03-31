@@ -10,7 +10,7 @@
     "name": "XIRR(ROI) Calculator",
     "id": "xirr-calculator",
     "icon": "block-outlined",
-    "version": "0.0.3",
+    "version": "0.0.5",
     "description": "XIRR(ROI) Calculator",
     "repository": "https://github.com/zhenweiwang1990/finance-calculator",
     "isPublic": true,
@@ -20,10 +20,23 @@
     "keywords": ["xirr","roi","irr","rate of return"]
   },
   {
+    "name": "IRR(ROI) Calculator",
+    "id": "irr-calculator",
+    "icon": "block-outlined",
+    "version": "0.0.5",
+    "description": "IRR(ROI) Calculator",
+    "repository": "https://github.com/zhenweiwang1990/finance-calculator",
+    "isPublic": true,
+    "category": [
+      "encode"
+    ],
+    "keywords": ["irr","roi","irr","rate of return"]
+  },
+  {
     "name": "Amortization Calculator",
     "id": "am-calculator",
     "icon": "block-outlined",
-    "version": "0.0.3",
+    "version": "0.0.5",
     "description": "Amortization Calculator",
     "repository": "https://github.com/zhenweiwang1990/finance-calculator",
     "isPublic": true,
@@ -36,7 +49,7 @@
     "name": "CAGR Calculator",
     "id": "cagr-calculator",
     "icon": "block-outlined",
-    "version": "0.0.3",
+    "version": "0.0.5",
     "description": "Compound Annual Growth Rate Calculator",
     "repository": "https://github.com/zhenweiwang1990/finance-calculator",
     "isPublic": true,
@@ -49,7 +62,7 @@
     "name": "Compound Interest Calculator",
     "id": "ci-calculator",
     "icon": "block-outlined",
-    "version": "0.0.3",
+    "version": "0.0.5",
     "description": "Compound Interest Calculator",
     "repository": "https://github.com/zhenweiwang1990/finance-calculator",
     "isPublic": true,
@@ -62,7 +75,7 @@
     "name": "Discount Factors Calculator",
     "id": "df-calculator",
     "icon": "block-outlined",
-    "version": "0.0.3",
+    "version": "0.0.5",
     "description": "Discount Factors Calculator",
     "repository": "https://github.com/zhenweiwang1990/finance-calculator",
     "isPublic": true,
@@ -75,7 +88,7 @@
     "name": "Future Value Calculator",
     "id": "fv-calculator",
     "icon": "block-outlined",
-    "version": "0.0.3",
+    "version": "0.0.5",
     "description": "Future Value Calculator",
     "repository": "https://github.com/zhenweiwang1990/finance-calculator",
     "isPublic": true,
@@ -83,6 +96,19 @@
       "encode"
     ],
     "keywords": ["future","value","FV"]
+  },
+  {
+    "name": "Leverage Ratio Calculator",
+    "id": "lr-calculator",
+    "icon": "block-outlined",
+    "version": "0.0.5",
+    "description": "Leverage Ratio Calculator",
+    "repository": "https://github.com/zhenweiwang1990/finance-calculator",
+    "isPublic": true,
+    "category": [
+      "encode"
+    ],
+    "keywords": ["Leverage","ratio","LR"]
   }
 ],
   "dependencies": {
