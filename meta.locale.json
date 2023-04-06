@@ -1,0 +1,717 @@
+[
+  {
+    "id": "xirr-calculator",
+    "en": {
+      "$name": "XIRR(ROI) Calculator",
+      "$description": "XIRR(ROI) Calculator",
+      "$keywords": [
+        "xirr",
+        "roi",
+        "irr",
+        "rate of return"
+      ]
+    },
+    "ja": {
+      "$name": "XIRR(ROI)計算機",
+      "$description": "XIRR(ROI)計算機",
+      "$keywords": [
+        "内部利益率",
+        "利益率"
+      ]
+    },
+    "it": {
+      "$name": "XIRR(ROI) Calcolatrice",
+      "$description": "XIRR(ROI) Calcolatrice",
+      "$keywords": [
+        "tasso di rendimento"
+      ]
+    },
+    "ru": {
+      "$name": "Калькулятор XIRR(ROI)",
+      "$description": "Калькулятор XIRR(ROI)",
+      "$keywords": [
+        "норма прибыли"
+      ]
+    },
+    "fr": {
+      "$name": "Calculatrice XIRR(ROI)",
+      "$description": "Calculatrice XIRR(ROI)",
+      "$keywords": [
+        "taux de retour"
+      ]
+    },
+    "ko": {
+      "$name": "XIRR(ROI) 계산기",
+      "$description": "XIRR(ROI) 계산기",
+      "$keywords": [
+        "수익률"
+      ]
+    },
+    "zh-cn": {
+      "$name": "XIRR(ROI) 计算器",
+      "$description": "XIRR(ROI) 计算器",
+      "$keywords": [
+        "投资回报率",
+        "回报率"
+      ]
+    },
+    "pt": {
+      "$name": "Calculadora XIRR(ROI)",
+      "$description": "Calculadora XIRR(ROI)",
+      "$keywords": [
+        "taxa de retorno"
+      ]
+    },
+    "es": {
+      "$name": "Calculadora XIRR(ROI)",
+      "$description": "Calculadora XIRR(ROI)",
+      "$keywords": [
+        "tasa de retorno"
+      ]
+    },
+    "zh-tw": {
+      "$name": "XIRR(ROI) 計算器",
+      "$description": "XIRR(ROI) 計算器",
+      "$keywords": [
+        "回報率"
+      ]
+    },
+    "de": {
+      "$name": "XIRR(ROI)-Rechner",
+      "$description": "XIRR(ROI)-Rechner",
+      "$keywords": [
+        "Rendite"
+      ]
+    }
+  },
+  {
+    "id": "irr-calculator",
+    "en": {
+      "$name": "IRR(ROI) Calculator",
+      "$description": "IRR(ROI) Calculator",
+      "$keywords": [
+        "irr",
+        "roi",
+        "irr",
+        "rate of return"
+      ]
+    },
+    "zh-tw": {
+      "$name": "IRR(ROI) 計算器",
+      "$description": "IRR(ROI) 計算器",
+      "$keywords": [
+        "投資回報率",
+        "回報率"
+      ]
+    },
+    "ko": {
+      "$name": "IRR(ROI) 계산기",
+      "$description": "IRR(ROI) 계산기",
+      "$keywords": [
+        "로이",
+        "수익률"
+      ]
+    },
+    "ja": {
+      "$name": "IRR(ROI)計算機",
+      "$description": "IRR(ROI)計算機",
+      "$keywords": [
+        "内部利益率",
+        "利益率"
+      ]
+    },
+    "es": {
+      "$name": "Calculadora de TIR (ROI)",
+      "$description": "Calculadora de TIR (ROI)",
+      "$keywords": [
+        "tasa de retorno"
+      ]
+    },
+    "zh-cn": {
+      "$name": "IRR(ROI) 计算器",
+      "$description": "IRR(ROI) 计算器",
+      "$keywords": [
+        "投资回报率",
+        "回报率"
+      ]
+    },
+    "it": {
+      "$name": "Calcolatrice IRR(ROI).",
+      "$description": "Calcolatrice IRR(ROI).",
+      "$keywords": [
+        "tasso di rendimento"
+      ]
+    },
+    "fr": {
+      "$name": "Calculateur de TRI (ROI)",
+      "$description": "Calculateur de TRI (ROI)",
+      "$keywords": [
+        "taux de retour"
+      ]
+    },
+    "pt": {
+      "$name": "Calculadora IRR(ROI)",
+      "$description": "Calculadora IRR(ROI)",
+      "$keywords": [
+        "taxa de retorno"
+      ]
+    },
+    "ru": {
+      "$name": "Калькулятор IRR(ROI)",
+      "$description": "Калькулятор IRR(ROI)",
+      "$keywords": [
+        "норма прибыли"
+      ]
+    },
+    "de": {
+      "$name": "IRR(ROI)-Rechner",
+      "$description": "IRR(ROI)-Rechner",
+      "$keywords": [
+        "Rendite"
+      ]
+    }
+  },
+  {
+    "id": "am-calculator",
+    "zh-cn": {
+      "$name": "摊销计算器",
+      "$description": "摊销计算器",
+      "$keywords": [
+        "摊销",
+        "支付"
+      ]
+    },
+    "de": {
+      "$name": "Amortisationsrechner",
+      "$description": "Amortisationsrechner",
+      "$keywords": [
+        "Amortisation",
+        "Zahlung"
+      ]
+    },
+    "en": {
+      "$name": "Amortization Calculator",
+      "$description": "Amortization Calculator",
+      "$keywords": [
+        "Amortization",
+        "am",
+        "payment"
+      ]
+    },
+    "ja": {
+      "$name": "償却計算機",
+      "$description": "償却計算機",
+      "$keywords": [
+        "償却",
+        "支払い"
+      ]
+    },
+    "zh-tw": {
+      "$name": "攤銷計算器",
+      "$description": "攤銷計算器",
+      "$keywords": [
+        "攤銷",
+        "支付"
+      ]
+    },
+    "ko": {
+      "$name": "상각 계산기",
+      "$description": "상각 계산기",
+      "$keywords": [
+        "상각",
+        "지불"
+      ]
+    },
+    "es": {
+      "$name": "Calculadora de amortización",
+      "$description": "Calculadora de amortización",
+      "$keywords": [
+        "Amortización",
+        "pago"
+      ]
+    },
+    "it": {
+      "$name": "Calcolatore di ammortamento",
+      "$description": "Calcolatore di ammortamento",
+      "$keywords": [
+        "Ammortamento",
+        "pagamento"
+      ]
+    },
+    "fr": {
+      "$name": "Calculateur d'amortissement",
+      "$description": "Calculateur d'amortissement",
+      "$keywords": [
+        "Amortissement",
+        "paiement"
+      ]
+    },
+    "ru": {
+      "$name": "Калькулятор амортизации",
+      "$description": "Калькулятор амортизации",
+      "$keywords": [
+        "Амортизация",
+        "оплата"
+      ]
+    },
+    "pt": {
+      "$name": "Calculadora de Amortização",
+      "$description": "Calculadora de Amortização",
+      "$keywords": [
+        "Amortização",
+        "pagamento"
+      ]
+    }
+  },
+  {
+    "id": "cagr-calculator",
+    "en": {
+      "$name": "CAGR Calculator",
+      "$description": "Compound Annual Growth Rate Calculator",
+      "$keywords": [
+        "CAGR",
+        "growth",
+        "annals",
+        "rate",
+        "compound"
+      ]
+    },
+    "es": {
+      "$name": "Calculadora CAGR",
+      "$description": "Calculadora de tasa de crecimiento anual compuesta",
+      "$keywords": [
+        "CAGR",
+        "crecimiento",
+        "anales",
+        "tasa"
+      ]
+    },
+    "fr": {
+      "$name": "Calculateur TCAC",
+      "$description": "Calculatrice du taux de croissance annuel composé",
+      "$keywords": [
+        "TCAC",
+        "croissance",
+        "annales",
+        "taux"
+      ]
+    },
+    "pt": {
+      "$name": "Calculadora CAGR",
+      "$description": "Calculadora de taxa de crescimento anual composta",
+      "$keywords": [
+        "CAGR",
+        "crescimento",
+        "anuais",
+        "avaliar"
+      ]
+    },
+    "ja": {
+      "$name": "CAGR 計算機",
+      "$description": "複合年間成長率計算機",
+      "$keywords": [
+        "CAGR",
+        "成長",
+        "年表",
+        "レート"
+      ]
+    },
+    "it": {
+      "$name": "Calcolatore CAGR",
+      "$description": "Calcolatore del tasso di crescita annuale composto",
+      "$keywords": [
+        "CAGR",
+        "crescita",
+        "annali",
+        "valutare",
+        "composto"
+      ]
+    },
+    "ru": {
+      "$name": "Калькулятор среднегодового темпа роста",
+      "$description": "Калькулятор среднегодового темпа роста",
+      "$keywords": [
+        "CAGR",
+        "рост",
+        "анналы",
+        "сложный"
+      ]
+    },
+    "zh-cn": {
+      "$name": "复合年增长率计算器",
+      "$description": "复合年增长率计算器",
+      "$keywords": [
+        "复合年增长率",
+        "生长",
+        "速度"
+      ]
+    },
+    "zh-tw": {
+      "$name": "複合年增長率計算器",
+      "$description": "複合年增長率計算器",
+      "$keywords": [
+        "複合年增長率",
+        "生長",
+        "速度"
+      ]
+    },
+    "ko": {
+      "$name": "CAGR 계산기",
+      "$description": "복합 연간 성장률 계산기",
+      "$keywords": [
+        "CAGR",
+        "연대기",
+        "화합물"
+      ]
+    },
+    "de": {
+      "$name": "CAGR-Rechner",
+      "$description": "Rechner für die durchschnittliche jährliche Wachstumsrate",
+      "$keywords": [
+        "CAGR",
+        "Wachstum",
+        "Annalen",
+        "Rate",
+        "Verbindung"
+      ]
+    }
+  },
+  {
+    "id": "ci-calculator",
+    "en": {
+      "$name": "Compound Interest Calculator",
+      "$description": "Compound Interest Calculator",
+      "$keywords": [
+        "Compound",
+        "Interest",
+        "CI"
+      ]
+    },
+    "zh-cn": {
+      "$name": "复利计算器",
+      "$description": "复利计算器",
+      "$keywords": [
+        "化合物",
+        "利率"
+      ]
+    },
+    "pt": {
+      "$name": "Calculadora de Juros Compostos",
+      "$description": "Calculadora de Juros Compostos",
+      "$keywords": [
+        "Composto",
+        "Interesse"
+      ]
+    },
+    "ja": {
+      "$name": "複利計算機",
+      "$description": "複利計算機",
+      "$keywords": [
+        "コンパウンド"
+      ]
+    },
+    "fr": {
+      "$name": "Calculatrice d'intérêts composés",
+      "$description": "Calculatrice d'intérêts composés",
+      "$keywords": [
+        "Composé"
+      ]
+    },
+    "it": {
+      "$name": "Calcolatore di interessi composti",
+      "$description": "Calcolatore di interessi composti",
+      "$keywords": [
+        "Composto"
+      ]
+    },
+    "zh-tw": {
+      "$name": "複利計算器",
+      "$description": "複利計算器",
+      "$keywords": [
+        "複利"
+      ]
+    },
+    "ru": {
+      "$name": "Калькулятор сложных процентов",
+      "$description": "Калькулятор сложных процентов",
+      "$keywords": [
+        "Сложный"
+      ]
+    },
+    "es": {
+      "$name": "Calculadora de interés compuesto",
+      "$description": "Calculadora de interés compuesto",
+      "$keywords": [
+        "Compuesto"
+      ]
+    },
+    "ko": {
+      "$name": "복리이자 계산기",
+      "$description": "복리이자 계산기",
+      "$keywords": [
+        "화합물"
+      ]
+    },
+    "de": {
+      "$name": "Zinseszinsrechner",
+      "$description": "Zinseszinsrechner",
+      "$keywords": [
+        "Verbindung"
+      ]
+    }
+  },
+  {
+    "id": "df-calculator",
+    "en": {
+      "$name": "Discount Factors Calculator",
+      "$description": "Discount Factors Calculator",
+      "$keywords": [
+        "discount",
+        "factor",
+        "DF"
+      ]
+    },
+    "zh-cn": {
+      "$name": "折扣系数计算器",
+      "$description": "折扣系数计算器",
+      "$keywords": [
+        "折扣",
+        "因素"      
+      ]
+    },
+    "pt": {
+      "$name": "Calculadora de Fatores de Desconto",
+      "$description": "Calculadora de Fatores de Desconto",
+      "$keywords": [
+        "desconto",
+        "fator"
+      ]
+    },
+    "zh-tw": {
+      "$name": "折扣係數計算器",
+      "$description": "折扣係數計算器",
+      "$keywords": [
+        "折扣",
+        "因素"
+      ]
+    },
+    "es": {
+      "$name": "Calculadora de factores de descuento",
+      "$description": "Calculadora de factores de descuento",
+      "$keywords": [
+        "descuento",
+        "factor"
+      ]
+    },
+    "ja": {
+      "$name": "割引率計算機",
+      "$description": "割引率計算機",
+      "$keywords": [
+        "割引",
+        "要素"
+      ]
+    },
+    "fr": {
+      "$name": "Calculateur de facteurs de remise",
+      "$description": "Calculateur de facteurs de remise",
+      "$keywords": [
+        "rabais",
+        "facteur"
+      ]
+    },
+    "it": {
+      "$name": "Calcolatore dei fattori di sconto",
+      "$description": "Calcolatore dei fattori di sconto",
+      "$keywords": [
+        "sconto",
+        "fattore"
+      ]
+    },
+    "ru": {
+      "$name": "Калькулятор коэффициентов дисконтирования",
+      "$description": "Калькулятор коэффициентов дисконтирования",
+      "$keywords": [
+        "скидка",
+        "фактор"
+      ]
+    },
+    "ko": {
+      "$name": "할인 요인 계산기",
+      "$description": "할인 요인 계산기",
+      "$keywords": [
+        "할인",
+        "요인"
+      ]
+    },
+    "de": {
+      "$name": "Diskontierungsfaktor-Rechner",
+      "$description": "Diskontierungsfaktor-Rechner",
+      "$keywords": [
+        "Rabatt",
+        "Faktor"
+      ]
+    }
+  },
+  {
+    "id": "fv-calculator",
+    "en": {
+      "$name": "Future Value Calculator",
+      "$description": "Future Value Calculator",
+      "$keywords": [
+        "future",
+        "value"
+      ]
+    },
+    "zh-tw": {
+      "$name": "Future Value Calculator",
+      "$description": "Future Value Calculator",
+      "$keywords": [
+        "future",
+        "value"
+      ]
+    },
+    "it": {
+      "$name": "Future Value Calculator",
+      "$description": "Future Value Calculator",
+      "$keywords": [
+        "future",
+        "value"
+      ]
+    },
+    "ru": {
+      "$name": "Future Value Calculator",
+      "$description": "Future Value Calculator",
+      "$keywords": [
+        "future",
+        "value"
+      ]
+    },
+    "es": {
+      "$name": "Future Value Calculator",
+      "$description": "Future Value Calculator",
+      "$keywords": [
+        "future",
+        "value"
+      ]
+    },
+    "ko": {
+      "$name": "Future Value Calculator",
+      "$description": "Future Value Calculator",
+      "$keywords": [
+        "future",
+        "value"
+      ]
+    },
+    "ja": {
+      "$name": "Future Value Calculator",
+      "$description": "Future Value Calculator",
+      "$keywords": [
+        "future",
+        "value"
+      ]
+    },
+    "fr": {
+      "$name": "Future Value Calculator",
+      "$description": "Future Value Calculator",
+      "$keywords": [
+        "future",
+        "value"
+      ]
+    },
+    "pt": {
+      "$name": "Future Value Calculator",
+      "$description": "Future Value Calculator",
+      "$keywords": [
+        "future",
+        "value"
+      ]
+    },
+    "de": {
+      "$name": "Future Value Calculator",
+      "$description": "Future Value Calculator",
+      "$keywords": [
+        "future",
+        "value"
+      ]
+    },
+    "zh-cn": {
+      "$name": "Future Value Calculator",
+      "$description": "Future Value Calculator",
+      "$keywords": [
+        "future",
+        "value"
+      ]
+    }
+  },
+  {
+    "id": "lr-calculator",
+    "en": {
+      "$name": "Leverage Ratio Calculator",
+      "$description": "Leverage Ratio Calculator",
+      "$keywords": [
+        "Leverage",
+        "ratio",
+        "LR"
+      ]
+    },
+    "ja": {
+      "$name": "レバレッジ比率計算機",
+      "$description": "レバレッジ比率計算機",
+      "$keywords": []
+    },
+    "pt": {
+      "$name": "Calculadora de Índice de Alavancagem",
+      "$description": "Calculadora de Índice de Alavancagem",
+      "$keywords": []
+
+    },
+    "zh-tw": {
+      "$name": "槓桿比率計算器",
+      "$description": "槓桿比率計算器",
+      "$keywords": []
+
+    },
+    "es": {
+      "$name": "Calculadora de ratio de apalancamiento",
+      "$description": "Calculadora de ratio de apalancamiento",
+      "$keywords": []
+
+    },
+    "fr": {
+      "$name": "Calculateur de ratio de levier",
+      "$description": "Calculateur de ratio de levier",
+      "$keywords": []
+
+    },
+    "de": {
+      "$name": "Leverage-Ratio-Rechner",
+      "$description": "Leverage-Ratio-Rechner",
+      "$keywords": []
+
+    },
+    "it": {
+      "$name": "Calcolatore del rapporto di leva finanziaria",
+      "$description": "Calcolatore del rapporto di leva finanziaria",
+      "$keywords": []
+
+    },
+    "zh-cn": {
+      "$name": "杠杆比率计算器",
+      "$description": "杠杆比率计算器",
+      "$keywords": []
+
+    },
+    "ru": {
+      "$name": "Калькулятор коэффициента кредитного плеча",
+      "$description": "Калькулятор коэффициента кредитного плеча",
+      "$keywords": []
+
+    },
+    "ko": {
+      "$name": "레버리지 비율 계산기",
+      "$description": "레버리지 비율 계산기",
+      "$keywords": []
+
+    }
+  }
+]
