@@ -15,7 +15,7 @@
     "repository": "https://github.com/zhenweiwang1990/finance-calculator",
     "isPublic": true,
     "category": [
-      "encode"
+      "math"
     ],
     "keywords": ["xirr","roi","irr","rate of return"]
   },
@@ -28,7 +28,7 @@
     "repository": "https://github.com/zhenweiwang1990/finance-calculator",
     "isPublic": true,
     "category": [
-      "encode"
+      "math"
     ],
     "keywords": ["irr","roi","irr","rate of return"]
   },
@@ -41,7 +41,7 @@
     "repository": "https://github.com/zhenweiwang1990/finance-calculator",
     "isPublic": true,
     "category": [
-      "encode"
+      "math"
     ],
     "keywords": ["Amortization","am","payment"]
   },
@@ -54,7 +54,7 @@
     "repository": "https://github.com/zhenweiwang1990/finance-calculator",
     "isPublic": true,
     "category": [
-      "encode"
+      "math"
     ],
     "keywords": ["CAGR","growth","annal","rate","compound"]
   },
@@ -67,7 +67,7 @@
     "repository": "https://github.com/zhenweiwang1990/finance-calculator",
     "isPublic": true,
     "category": [
-      "encode"
+      "math"
     ],
     "keywords": ["Compound","Interest","CI"]
   },
@@ -80,7 +80,7 @@
     "repository": "https://github.com/zhenweiwang1990/finance-calculator",
     "isPublic": true,
     "category": [
-      "encode"
+      "math"
     ],
     "keywords": ["discount","factor","DF"]
   },
@@ -93,7 +93,7 @@
     "repository": "https://github.com/zhenweiwang1990/finance-calculator",
     "isPublic": true,
     "category": [
-      "encode"
+      "math"
     ],
     "keywords": ["future","value","FV"]
   },
@@ -106,7 +106,7 @@
     "repository": "https://github.com/zhenweiwang1990/finance-calculator",
     "isPublic": true,
     "category": [
-      "encode"
+      "math"
     ],
     "keywords": ["Leverage","ratio","LR"]
   }
