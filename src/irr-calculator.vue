@@ -8,7 +8,7 @@
         auto-select
         :save-options="{key:'cashflows', autoSave: true}"
       />
-      <a-space>
+      <a-space style="margin-top: 20px">
         <a-button type="primary" @click="calculateIRR">Calculate IRR</a-button>
       </a-space>
       <h-singleline :value="irrResult" title="IRR" size="large"/>

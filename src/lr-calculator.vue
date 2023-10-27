@@ -1,5 +1,5 @@
 <template>
-  <h-single-layout mode="middle" :width="1280">
+  <h-single-layout mode="middle" :width="600">
     <div>
       <a-form :label-col="{ span: 8 }" :wrapper-col="{ span: 18 }">
         <a-form-item label="Total Liabilities:">

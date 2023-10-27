@@ -8,7 +8,7 @@
           auto-select
           :save-options="{key:'cashflows', autoSave: true}"
         />
-      <a-space>
+      <a-space style="margin-top: 20px">
         <span>Total Asset Value(Present Value):</span>
         <h-number-input v-model:value="totalAssetValue" :min="0"           
         :save-options="{key:'totalAssetValue', autoSave: true}"
